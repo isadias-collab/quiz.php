@@ -7,11 +7,8 @@ Aqui, os amantes da sétima arte podem testar seus conhecimentos sobre filmes, d
 
 ## 🎯 Objetivo da Atividade  
 
-> Parabéns, programadores e programadoras! 🎉💻  
-> Agora que todo mundo já dominou os segredos do PHP e criou seu primeiro quiz, chegou o grande momento: é hora de soltar a criatividade e montar o seu próprio **Quiz Personalizado!** 📝❓  
+> O objetivo desta atividade era colocar em prática o que foi aprendido sobre PHP e front-end.  
 >  
-> Use perguntas engraçadas, curiosas ou desafiadoras… Solte a imaginação, surpreenda a turma e divirta-se com código! 🚀✨  
-
 ---
 
 ## 🚀 Tecnologias Utilizadas  
