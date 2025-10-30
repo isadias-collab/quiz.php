@@ -1,0 +1,218 @@
+/* Resetando algumas propriedades padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🎬 Estilo global da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at top, #1a1a1a, #000000); /* Fundo escuro e dramático */
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* 🎞️ Container principal */
+.container {
+    background: linear-gradient(to bottom right, #2c2c2c, #1a1a1a);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #b30000;
+}
+
+/* 🎥 Título principal */
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: #e50914; /* Vermelho Netflix */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+}
+
+/* Subtítulos */
+h3 {
+    font-size: 2rem;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Linha de separação */
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #e50914, #b30000, #e50914);
+    margin: 20px 0;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+/* Informações e progresso */
+h5, h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #f5f5f5;
+}
+
+/* Destaque da quantidade de questões */
+h5 strong {
+    font-size: 1.6rem;
+    color: #ffd700; /* Dourado */
+}
+
+/* Destaque do texto principal */
+h4 strong {
+    font-size: 1.8rem;
+    color: #e50914;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Alternativas */
+div h3 {
+    font-size: 1.4rem;
+    background-color: #222;
+    color: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #444;
+    transition: all 0.3s ease;
+}
+
+div h3:hover {
+    background-color: #e50914;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.7);
+}
+
+/* Botão "Desistir" */
+a {
+    font-size: 1.2rem;
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #e50914;
+    transform: scale(1.1);
+}
+
+/* 🎬 Resultados do jogo */
+.result-container {
+    background: linear-gradient(to right, #2c2c2c, #1a1a1a);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #ffd700;
+}
+
+.result-container h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Valores dos resultados */
+.result-container .result-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+/* Botão "Jogar novamente" */
+.result-container .btn-secondary {
+    background-color: #e50914;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+}
+
+.result-container .btn-secondary:hover {
+    background-color: #b0060f;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+}
+
+/* ✨ Animação de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Campo de texto */
+#text_total_questions {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #e50914;
+    background-color: #111;
+    color: #fff;
+    width: 60%;
+    margin: 10px 0 20px;
+    transition: border-color 0.3s ease;
+}
+
+#text_total_questions:focus {
+    border-color: #ffd700;
+    outline: none;
+}
+
+/* Botão inicial */
+.btn {
+    background-color: #e50914;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #b0060f;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+}
