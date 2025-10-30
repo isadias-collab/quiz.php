@@ -32,5 +32,4 @@ Aqui, os amantes da sétima arte podem testar seus conhecimentos sobre filmes, d
 
 ---
 
-## 💻 Como Executar o Projeto  
 
