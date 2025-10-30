@@ -36,7 +36,5 @@ Aqui, os amantes da sétima arte podem testar seus conhecimentos sobre filmes, d
 
 | Tela Inicial | Perguntas do Quiz | Resultado Final | 
 |:-------------:|:----------------:|:----------------:|
-| <img width="575" height="361" alt="image" src="https://github.com/user-attachments/assets/0dca30f7-48cb-46e4-8c3c-2df48681c705" />
- /> | <img width="579" height="407" alt="image" src="https://github.com/user-attachments/assets/0fd89d25-3fe9-4527-8e57-87483d0b33b2" />
- /> | <img width="509" height="341" alt="image" src="https://github.com/user-attachments/assets/3dfc33e9-6a64-4f43-ad69-f61b351a0900" />
+| <img width="575" height="361" alt="image" src="https://github.com/user-attachments/assets/0dca30f7-48cb-46e4-8c3c-2df48681c705" /> | <img width="579" height="407" alt="image" src="https://github.com/user-attachments/assets/0fd89d25-3fe9-4527-8e57-87483d0b33b2" /> | <img width="509" height="341" alt="image" src="https://github.com/user-attachments/assets/3dfc33e9-6a64-4f43-ad69-f61b351a0900" /> |
 
